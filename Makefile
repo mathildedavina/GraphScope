@@ -52,7 +52,7 @@ all: coordinator analytical interactive
 graphscope: all
 
 install: analytical-install interactive-install learning-install coordinator
-	echo "Run the following command to correctly set environment variable"
+	echo "Run the following command to set environment variable"
 	echo "export GRAPHSCOPE_HOME=$(INSTALL_PREFIX)"
 
 clean:
